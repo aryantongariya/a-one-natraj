@@ -207,14 +207,12 @@ background-color: #47dcff;
     
     
    .blog1 .container{
-    
         grid-template-columns: auto;
         /* height: 153vh; */
         /* align-items: center; */
         /* justify-items: center; */
         margin-left: 8rem;
         margin-top: 57%;
-    
    } 
    .blog1 .container .activities{
     margin-left: -12%;
