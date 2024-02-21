@@ -1,0 +1,114 @@
+.slider{
+    width: 100%;
+    position: absolute; 
+    height: 75vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.646);
+    z-index: 1099;
+    /* opacity: 0; */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    -webkit-transition: all 1s ease;  
+    transition: all 1s ease;    
+  
+    
+  }
+
+/* .slider{
+    position: absolute;
+    left: 0; 
+    top: 0;  
+    width: 100%;
+    height:100vh;
+    z-index: 1099;
+    background-color: rgba(0, 0, 0, 0.6);
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    opacity: 0;
+    -webkit-transition: all 1s ease;
+    transition: all 1s ease
+    
+  } */
+
+  .image{       
+    width: 1000px;
+    height: 600px;
+    border-radius: 10px;
+  }
+  
+  .right-arrow{
+    position: absolute;
+    top: 50%;
+    right: 32px;
+    font-size: 3rem;
+    color: #000;
+    z-index: 10;
+    cursor: pointer;
+    user-select: none;
+  }
+  .left-arrow{
+    position: absolute;
+    top: 50%;
+    left: 32px;
+    font-size: 3rem;
+    color: #000;
+    z-index: 10;
+    cursor: pointer;
+    user-select: none;
+  }
+  
+  .slide{
+    opacity: 0;
+    transition-duration: 1s ease;
+  }
+  
+  .slide.active{
+    opacity: 1;
+    transition-duration: 1s;
+    transform: scale(1.08);
+  }
+  
+  .closs{
+    font-size: 2rem;
+    color: white;
+    z-index: 99999;
+    cursor: pointer;
+    margin-top: -38rem;
+    margin-left: 64rem;
+    /* justify-content: end; */
+    position: absolute
+  
+  }
+
+  @media screen and (max-width: 940px) {
+    .navbar {
+      display: flow-root;
+      width: 100%;
+      /* height: 8rem; */
+  }
+    .slider {
+      width: 100%;
+      /* position: absolute; */
+      height: 153vh;
+      /* display: flex; */
+      /* justify-content: center; */
+      /* align-items: center; */
+      /* background-color: rgba(0, 0, 0, 0.646); */
+      /* z-index: 1099; */
+      /* opacity: 0; */
+      display: -ms-flexbox;
+      /* transition: all 1s ease; */
+      margin-left: 0%;
+  }
+  .image {
+    width: auto;
+    height: 242px;
+    border-radius: 10px;
+    margin-left: 0%;
+}
+  }
+
+

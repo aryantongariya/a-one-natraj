@@ -1,0 +1,70 @@
+.cloud{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    background: rgba(0, 0, 0, .3);
+}
+
+.cloud::before{
+    content: '';
+    position: absolute;
+    background: url('../../Images/main-bg.png')no-repeat center center/cover;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+.cloud .content{
+    position: absolute;
+    /* left: -19%; */
+    width: 64%;
+    padding: 1rem;
+    opacity: 1;
+}
+
+.cloud h2{
+    color: #f8f8f8f8;
+    font-size: 5rem;
+}
+
+.cloud p{
+    color: #fafafaf8;
+    margin: 1rem 0;
+    font-weight: 600;
+    font-size: 2rem;
+}
+
+.cloud p span:last-child:hover{
+    color: #47dcff;
+    text-decoration: underline;
+}
+
+@media screen and (max-width: 940px) {
+    .cloud {
+        width: 80%;
+    }
+    .cloud .content{
+        left: 0%;
+        width: 100%;
+        position: absolute;
+        /* top: -291%; */
+        padding: 1rem;
+        opacity: 1;
+    }
+    
+    .cloud .content h2{
+        z-index: -1;
+    }
+    
+}
+
+@media screen and (max-width: 500px) {
+    .cloud {
+        width: 100%;
+        height: 130vh;
+    }
+    .container {
+        max-width: 86%;
+    }
+}
+

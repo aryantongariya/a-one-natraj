@@ -1,0 +1,293 @@
+h1 {
+    color: white;
+    text-align: center;
+    font-style: italic;
+    padding: 12px;
+  }
+  
+  h2 {
+    color: white;
+    text-align: center;
+    font-style: italic;
+  }
+.registerContainer{
+  position: relative;
+  padding-top: 10rem;
+}
+.registerContainer .reg {
+    width: 50%;
+    height: 58rem;
+    background-color: rgba(4, 12, 12, 0.4);
+  
+    justify-content: center;
+    align-items: center;
+    margin-left: 23rem;
+    margin-top: 3rem;
+    text-align: center;
+  }
+  
+  #reg {
+    width: 40%;
+    margin: auto;
+    margin-top: -18px;
+  }
+  
+  .invalid-input{
+    color: rgb(236, 61, 61);
+    font-size: 16px;
+  }
+  .invalid-input input{
+    border: 2px solid red;
+  }
+  .select-box {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .select-box .options-container {
+    background: white;
+    color: black;
+    max-height: 0;
+    width: 100%;
+    opacity: 0;
+    transition: all 0.4s;
+    border-radius: 8px;
+    overflow: hidden;
+    order: 1;
+  }
+  
+  .selected {
+    background: rgb(255, 255, 255);
+    border-radius: 8px;
+    margin-bottom: 8px;
+    color: black;
+    position: relative;
+    order: 0;
+  }
+  
+  .selected i {
+    content: "";
+    background-size: contain;
+    position: absolute;
+    height: 100%;
+    width: 32px;
+    right: 10px;
+    top: 5px;
+    font-size: 2rem;
+    transition: all 0.4s;
+  }
+  
+  .select-box .options-container.active {
+    max-height: 140px;
+    opacity: 1;
+    overflow-y: scroll;
+  }
+  
+  .select-box .options-container.active + .selected i {
+    transform: rotateX(180deg);
+    top: -6px;
+  }
+  
+  .select-box .options-container::-webkit-scrollbar {
+    width: 12px;
+    background: black;
+    border-radius: 0 8px 8px 0;
+  }
+  
+  .select-box .options-container::-webkit-scrollbar-thumb {
+    background: rgb(104, 104, 104);
+    border-radius: 8px 8px 8px 8px;
+  }
+  
+  .select-box .option,
+  .selected {
+    padding: 12px 24px;
+    cursor: pointer;
+  }
+  
+  .select-box .option:hover {
+    background: var(--text-hover);
+    color: var(--text-wite);
+  }
+  
+  .select-box label {
+    cursor: pointer;
+  }
+  
+  .select-box .option .radio {
+    display: none;
+  }
+  
+  .select-box .option i {
+    display: none;
+    visibility: visible;
+  }
+  
+  .select-box .options-container .option label {
+    color: black;
+  }
+  
+  .select-box .selected i {
+    visibility: visible;
+    top: 0;
+  }
+  
+  #reg select option span {
+    padding: 10px 10px;
+    font-size: 2rem;
+  }
+  
+  /* ---------------X-----------New form--------------------X------------------------ */
+  
+  .select {
+    font-size: 1.2rem;
+  }
+  
+  .form {
+    padding: 40px;
+  }
+  
+  .form-control {
+    margin-bottom: 0px;
+    position: relative;
+    display: block;
+    background: none;
+    border: none;
+  }
+  
+  .form-control label {
+    display: inline-block;
+    margin-bottom: 5px;
+    color: white;
+    font-size: 20px;
+    font-style: italic;
+  }
+  
+  .select-box label {
+    display: inline-block;
+    margin-bottom: 5px;
+    color: white;
+  }
+  
+  .form-control input {
+    width: 100%;
+    border: 2px solid #f0f0f0;
+    border-radius: 5px;
+    display: block;
+    font-family: var(--Livvic);
+    font-size: 13px;
+    padding: 12px;
+  }
+  
+  .form-control input:focus {
+    outline: 0;
+    border-color: #777;
+  }
+  
+  .form-control.success input {
+    border-color: #2ecc71;
+  }
+  
+  .form-control.error input {
+    border-color: #e74c3c;
+  }
+  
+  .form-control.success i.fa-check-circle {
+    color: #2ecc71;
+    visibility: visible;
+  }
+  
+  .form-control.error i.fa-exclamation-circle {
+    color: #e74c3c;
+    visibility: visible;
+  }
+  
+  .form-control i {
+    position: absolute;
+    right: 12px;
+    top: 41px;
+    visibility: hidden;
+  }
+  
+  .form-control small {
+    color: #e74c3c;
+    position: absolute;
+    font-size: 1.2rem;
+    left: 0%;
+    visibility: hidden;
+  }
+  
+  .form-control.error small {
+    visibility: visible;
+  }
+  
+  #reg label {
+    display: block;
+    margin-bottom: 3px;
+    margin-left: 0px;
+    margin-top: 22px;
+    color: white;
+    font-size: 20px;
+    font-style: italic;
+  }
+  
+  select {
+    outline: none;
+    width: 100%;
+    height: 45px;
+    border: 2px solid #f0f0f0;
+    border-radius: 5px;
+    /* display: block; */
+    font-family: var(--Livvic);
+    font-size: 14px;
+    /* padding: 12px; */
+    margin-bottom: 5px;
+  }
+  
+  #reg select option {
+    position: absolute;
+    outline: none;
+    width: 100%;
+    height: 42px;
+    border: 2px solid #f0f0f0;
+    border-radius: 5px;
+    font-family: var(--Livvic);
+    font-size: 14px;
+    margin-bottom: 5px;
+  }
+  
+  select option:nth-child(1) {
+    display: none;
+  }
+  
+  .reg .btn {
+    background: var(--text-hover);
+    border-radius: 6px;
+    border: none;
+    outline: none;
+    color: white;
+    display: block;
+    font-family: var(--Josefin);
+    font-size: 16px;
+    padding: 15px 0;
+    margin-top: 20px;
+    width: 100%;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: all 1s ease;
+    cursor: pointer;
+  }
+  
+  .reg .btn:hover {
+    background: linear-gradient(to right, #21d4fd 10%, #b721ff 100%);
+  }
+  
+  @media screen and (max-width: 940px) {
+    .registerContainer{
+      display: contents;
+    }
+    .reg{
+      margin-left: 0rem;
+      width: auto;
+    }
+  }

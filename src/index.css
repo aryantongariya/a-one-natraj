@@ -1,0 +1,116 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,700;1,400&family=Poppins:wght@100;200&family=Roboto:ital,wght@0,300;0,400;0,500;1,100;1,400&display=swap");
+
+@import url(./Fonts.css);
+* {
+    margin: 0%;
+    padding: 0%;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    /* max-width: 104%; */
+}
+
+
+
+:root {
+    --text-wite: #fff;
+    --text-hover: linear-gradient(-20deg, #b721ff 0%, #21d4fd 100%);
+    /* --text-hover: linear-gradient(#302f2f); */
+    /* --bg-hover: linear-gradient(-20deg, #7e18ad 0%, #2999b2 100%); */
+    --bg-hover: linear-gradient(-20deg, #7e18ad 0%, #2999b2 100%);
+    --bg-color: linear-gradient( to right  #434343 0%, black 100%);
+    --background-color: #302f2f;
+    --Abel: 'Abel', cursive;
+    --Anton: 'Anton'.cursive;
+    --Josefin: 'Josefin', cursive;  
+    --Lexend: 'Lexend_Deca', cursive;
+    --Livvic: 'Livvic', cursive;
+    --Train: 'Train_One', cursive;
+    --primary-color:#4dcdea;  
+    --primary-dark:#0d2154;
+}
+
+body {
+  background-color: var( --background-color);
+  /* background-color: #9b9292; */
+  overflow-x: hidden;
+}
+
+span{
+  color: var(--primary-color);
+}
+
+
+ul{
+  list-style-type:none;
+}
+
+a{
+  text-decoration: none;
+  color: #fff;
+}
+
+p{
+  font-size: 1.2rem;
+  line-height: 1.4;
+}
+
+h1{
+  font-size: 3.5rem;
+}
+
+h2{
+  font-size: 3rem;
+}
+
+
+.container{
+  max-width: 1240px;
+  margin: auto;
+  height: 100%; 
+  position: relative;
+  /* margin-left: 1rem; */
+}
+.app{
+  display: flow-root;
+ 
+}
+.appContainer{
+  margin-top: 10rem;
+}
+button{
+  font-family: 'Roboto, sans-serif';
+  padding: .7rem 1.5rem;
+  margin: 1rem 0;
+  background-color: var(--primary-color);
+  border: 1px solid var(--primary-color);
+  color: #f8f8f8;
+  font-size: 1rem;
+  font-weight: 500;
+  display: flex;
+  border-radius: 4px;
+  cursor: pointer;
+
+}
+
+button:hover{
+  background-color: #47dcff;
+  border: 1px solid #47dcff ;
+}
+
+@media screen and (max-width: 940px) {
+  h1{
+    font-size: 3rem;
+  }
+  h2{
+    font-size:2.5rem ;
+  }
+ 
+}
+
+
+@media screen and (max-width:500px) {
+  hr{
+    display: none;
+  }
+  
+}

@@ -1,0 +1,77 @@
+.login-popup{
+  display: grid;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.cont{
+  width: 40rem;
+  height: 37rem;
+  background-color: white;
+  /* align-items: center; */
+  margin-top: 7rem;
+}
+
+.form{
+  justify-content: center;
+  text-align: center;
+  display: grid;
+  height: 30rem;
+  margin: 1rem;
+}
+.form .input-box{
+  text-align: center;
+  width: 20rem;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  padding: 20px;
+}
+
+.form label span{
+  align-items: center;
+  justify-content: center;
+  display: grid;
+  color: black;
+  margin-top: 2rem;
+}
+.form label button{
+  margin-left: 10rem;
+  margin-top: 2rem;
+}
+
+.forgot-pass{
+  color: black;
+}
+.forgot-pass:hover{
+  color: rgb(252, 7, 7);
+  cursor: pointer;
+}
+
+.sign-up{
+  color: black;
+  font-size: 30px;
+  margin-top: 1rem;
+}
+
+.signup:hover{
+color: var(--primary-color);
+}
+.social-group{  
+  display: flex;
+ 
+}
+.social-icon{
+  background-color: hwb(246deg 6% 90% / 51%);
+  font-size: 30px;
+  margin: 2rem;
+  border-radius: 8px;
+  color: #0d2154;
+  width: 43px;
+}
+
+.social-icon:hover{
+  color: black;
+  cursor: pointer;
+}

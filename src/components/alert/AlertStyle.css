@@ -1,0 +1,9 @@
+.alertBox{
+   width: 100%;
+    /* position: fixed; */
+    padding: 10rem;
+   position: fixed;
+   z-index: 100000;
+     
+}
+

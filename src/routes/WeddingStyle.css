@@ -1,0 +1,83 @@
+.wedingRouteContainer{
+    width: 100%;
+    background: url('../Images/Abract01.png')no-repeat center center/cover;
+    background-size:contain;
+    /* height: 100vh; */
+}
+
+.wedingRouteContainer .content{   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.wedingRouteContainer .content h2{
+    padding-top: 10rem;
+}
+.box-container{
+    width: 80%;
+    display: grid;
+    grid-template-columns: 50% 50%   ;
+    margin-left: 10rem;
+    margin-top: 2rem;
+   
+  
+}   
+.box-container .box{
+    padding: 5px;
+    height: 100%;
+    /* display: grid; */
+    display: grid;
+}
+.box-container .fit-box{    
+     /* background-color: #fdffff;   */
+    width: 100%;
+    display: flex;
+    padding: 20px;  
+    border: 2px solid #fdffff;
+}
+
+.box-container .fit-box .fitness-image img{
+    width:80%; 
+    height: 50%; 
+    border-radius: 10px;
+}
+
+
+.box-container .fit-box .img-content {
+    width: 45%;
+    /* height: 50%; */
+} 
+.box-container .fit-box .img-content p{ 
+    font-size: 14px;
+}
+.box-container .fit-box .img-content h1, p{
+   color: #fdffff;
+}
+
+@media screen and (max-width: 940px) {
+/*   
+    .wedingRouteContainer {
+        width: 80%;
+    } */
+    .box-container {
+        width: 93%;
+        grid-template-columns: auto;    
+        margin-left: 2rem;   
+    }
+  
+}
+
+
+ @media screen and (max-width: 500px) {
+    .box-container{
+        margin-left: 1rem;
+    }
+    .box-container .fit-box{
+        display: initial;
+    }
+    .box-container .fit-box .img-content {
+        width: 100%;
+        /* height: 50%; */
+    }
+} 

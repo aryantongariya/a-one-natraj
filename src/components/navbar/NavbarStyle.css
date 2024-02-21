@@ -1,0 +1,136 @@
+.navbar{
+    width: 100%;
+    height: 127px;
+    z-index: 10;
+    background: var(--text-hover);
+}
+
+
+.navbar .container{
+   
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar .logo{
+    display: flex;
+    align-items: center;
+    color: #fff;
+    margin: 1rem;
+
+}
+
+.navbar .logo .icon{
+    font-size: 3rem;
+    margin-right: 1rem;
+    color: var(--primary-color);
+}
+
+.hamburger{
+    display:none;
+    padding: 1rem;
+    cursor: pointer;
+}
+
+.navbar .nav-menu{
+    display: flex;
+    padding: 1rem;
+    align-items: center;
+}
+
+.navbar li{
+    padding: 1rem;
+    font-weight: 600;
+    color: #fff;
+    cursor: pointer;
+}
+
+.navbar .icon{
+    font-size: 1.4rem;
+    color: #fff;
+}
+
+.navbar .logo img{
+    width: 16rem;
+}
+.navbar ul li a {
+    font-size: 1.5rem;
+}
+.navbar ul li a:hover {
+    /* letter-spacing: 1px; */
+    color: var(--primary-color);
+    
+}
+.navbar .active-login{
+    margin-top: 2rem;
+}
+
+.authName {
+    font-size: 2rem;
+    text-align: center;
+    margin: 1rem;
+    color: white;
+    border: 1px solid;
+    /* padding: 0px 0px 0px 0px; */
+    border-radius: 18px;
+    /* list-style: upper-alpha; */
+    text-transform: uppercase;
+}
+@media screen and (max-width: 940px) {
+    .navbar{
+        display: flow-root;
+        width: 80%;
+    }
+    
+    .navbar .hamburger{
+        display: block;
+        z-index: 9999;
+        margin-top: -7rem;
+        text-align: end;
+    
+    }   
+    /* .liBtn{
+        margin-left: 18rem;
+    } */
+    .navbar .container{
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        display: block;
+    }
+
+    .navbar .nav-menu{
+        position: absolute;
+        flex-direction: column;
+        width: 100%;
+        height: 84vh;
+        top: 7rem;
+        left: -100%;
+        align-items: center;
+        justify-content: center;
+        background-color: rgba(0, 0, 0, .8);
+        transition: 0.5s ease-in;
+        z-index: 9999;
+    }
+
+   .navbar .active{
+        left: 0;
+    }
+    
+    .navbar li{
+        margin-right: 1rem;
+        font-size: 2rem;
+    }
+
+    .navbar button{
+        font-size: 1.8rem;
+    }
+   
+
+}
+
+
+
+
+
