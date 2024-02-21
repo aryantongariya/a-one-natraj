@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/aonenatraj/static/css/main.e006397a.css",
+    "main.css": "/aonenatraj/static/css/main.ff272b6b.css",
     "main.js": "/aonenatraj/static/js/main.be4fb152.js",
     "static/media/gymnast-v.mp4": "/aonenatraj/static/media/gymnast-v.0a6c5aff075ebac13d99.mp4",
     "static/media/kids-v.mp4": "/aonenatraj/static/media/kids-v.b0d9f45ded6fe834beb3.mp4",
@@ -147,11 +147,11 @@
     "static/media/contemporary.jpg": "/aonenatraj/static/media/contemporary.294f8f0bf8f1822cb824.jpg",
     "static/media/jazz.jpg": "/aonenatraj/static/media/jazz.d061be7129822d97467a.jpg",
     "index.html": "/aonenatraj/index.html",
-    "main.e006397a.css.map": "/aonenatraj/static/css/main.e006397a.css.map",
+    "main.ff272b6b.css.map": "/aonenatraj/static/css/main.ff272b6b.css.map",
     "main.be4fb152.js.map": "/aonenatraj/static/js/main.be4fb152.js.map"
   },
   "entrypoints": [
-    "static/css/main.e006397a.css",
+    "static/css/main.ff272b6b.css",
     "static/js/main.be4fb152.js"
   ]
 }
