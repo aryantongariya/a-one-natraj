@@ -66,8 +66,8 @@ const Blog2 = () => {
                       </div>      
 
                       <ul className="category-list">
-                        <button className="btn" ><Link to='/activitis'> Are Activitis</Link></button>
-                        <button className="btn" ><Link to='/activitis'> Are Activitis</Link></button>  </ul>                   
+                        <button className="btn" ><Link to='/activitis'> Ore Actevities</Link></button>
+                        <button className="btn" ><Link to='/activitis'> Ore Actevities</Link></button>  </ul>                   
                          </div>                           
         </aside>
     </section>
