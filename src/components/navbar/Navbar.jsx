@@ -23,9 +23,9 @@ const Navbar = () => {
   //   navigate('/signup')
   // }
   // const signUp=()=>{
-
   //     navigate('/signup')
   // }
+
   const homeClick=()=>{
 
       navigate('/')
@@ -34,6 +34,7 @@ const Navbar = () => {
 
       navigate('/about')
   }
+
   // const enquireClick=()=>{
 
   //     navigate('/enquire')
@@ -60,7 +61,7 @@ const Navbar = () => {
           {/* {auth ? ( */}
             <ul className={nav ? "nav-menu active" : "nav-menu"}>
               <li>
-                <Link onClick={homeClick}>Home</Link>
+                <Link onClick={homeClick} to='/'>Home</Link>
               </li>
               <li>
               
