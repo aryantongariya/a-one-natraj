@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/aone-natraj/static/css/main.c8c52611.css",
-    "main.js": "/aone-natraj/static/js/main.2f23b4f8.js",
+    "main.js": "/aone-natraj/static/js/main.aba31781.js",
     "static/media/gymnast-v.mp4": "/aone-natraj/static/media/gymnast-v.0a6c5aff075ebac13d99.mp4",
     "static/media/kids-v.mp4": "/aone-natraj/static/media/kids-v.b0d9f45ded6fe834beb3.mp4",
     "static/media/main-bg.png": "/aone-natraj/static/media/main-bg.dca4d77849de207de91b.png",
@@ -148,10 +148,10 @@
     "static/media/jazz.jpg": "/aone-natraj/static/media/jazz.d061be7129822d97467a.jpg",
     "index.html": "/aone-natraj/index.html",
     "main.c8c52611.css.map": "/aone-natraj/static/css/main.c8c52611.css.map",
-    "main.2f23b4f8.js.map": "/aone-natraj/static/js/main.2f23b4f8.js.map"
+    "main.aba31781.js.map": "/aone-natraj/static/js/main.aba31781.js.map"
   },
   "entrypoints": [
     "static/css/main.c8c52611.css",
-    "static/js/main.2f23b4f8.js"
+    "static/js/main.aba31781.js"
   ]
 }
